@@ -23,10 +23,10 @@ Chippotto is a command line Java application witch the follow options:
 
 
 **-bgcolor** <*arg*>: Background Color (default value: BLACK)
-
 **-dasm**: ROM disassembler
--- **debugfile** <*arg*>: Debug file for dump/disassembler/trace option
--- **dump**: ROM dump
+**-debugfile** <*arg*>: Debug file for dump/disassembler/trace option
+**-dump**: ROM dump
+
 -- **fullscreen**: Fullscreen mode (ignored option pxsize)
 -- **hz** <*arg*>: Frequency for beeping sound (default value: 330 Hz)
 -- **ips** <*arg*>: Instructions Per Second (default value: 250)
