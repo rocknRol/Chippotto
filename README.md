@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/rocknRol/Chippotto/master/chippotto_screenshots.png)
+
 # **CHIPPOTTO**
 
 Yet another emulator but...let's start from the meaning of the name: Chippotto is an "italianism" of the term "Chip-8" where the number "eight" in italian language became "otto".
