@@ -167,8 +167,8 @@ There is only one instruction to draw a sprite on the screen, this is done by pe
 The CHIP-8 graphic system does not managed vertical black (VBLANK).
 
 There are only 2 opcode that acting on the screen:
-	**0x00E0**: clear the screen
-	**0xDXYN**: draw a sprite on the screen
+- **0x00E0**: clear the screen
+- **0xDXYN**: draw a sprite on the screen
 
 
 #### Font
