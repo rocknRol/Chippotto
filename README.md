@@ -46,10 +46,10 @@ The layout of the Chippotto's keyboard is the following
 
 Original Chip-8 keyboard layout:
 
-        1	2	3	C
-        4	5	6	D
-        7	8	9	E
-        A	0	B	F
+        1   2   3   C
+        4   5   6   D
+        7   8   9   E
+        A   0   B   F
 
 Chippotto keyboard layout:
     
@@ -138,10 +138,10 @@ CHIP-8 has two timers are decreased to 0 at the frequency of 60Hz
 CHIP-8 has 16 keys:
 
 	
-    1	2	3	C
-    4	5	6	D
-    7	8	9	E
-    A	0	B	F
+    1   2   3   C
+    4   5   6   D
+    7   8   9   E
+    A   0   B   F
 
 There are 3 opcode to know the keys status:
 - **EX9E**: jump an instruction when the specific key is pressed
@@ -165,12 +165,12 @@ There are only 2 opcode that acting on the screen:
 The character font are stored strarting at 0x050
 Example font "0" and "7" characters:
 
-	DEC   HEX    BIN               RESULT    DEC   HEX    BIN               RESULT
-	240   0xF0   1111 0000    ****          240   0xF0   1111 0000    ****
-	144   0x90   1001 0000    *    *            16     0x10   0001 0000          *
-	144   0x90   1001 0000    *    *            32     0x20   0010 0000        *
-	144   0x90   1001 0000    *    *            64     0x40   0100 0000   *
-	240   0xF0   1111 0000    ****            64     0x40   0100 0000   *
+	DEC   HEX    BIN         RESULT   DEC   HEX    BIN         RESULT
+	240   0xF0   1111 0000   ****     240   0xF0   1111 0000   ****
+	144   0x90   1001 0000   *  *     16    0x10   0001 0000      *
+	144   0x90   1001 0000   *  *     32    0x20   0010 0000     *
+	144   0x90   1001 0000   *  *     64    0x40   0100 0000   *
+	240   0xF0   1111 0000   ****     64    0x40   0100 0000   *
 
 Source code example:
 
@@ -248,5 +248,4 @@ Furthermore in this project You could find some interesting solutions among whic
 - See an example of a game loop synchronized using custom timers class
 - Using session data pattern (but without get set)
 - How to convert byte to hex, short to hex and vice versa
-
 
