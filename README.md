@@ -30,13 +30,19 @@ Chippotto is a command line Java application witch the follow options:
 
 **-dump**: ROM dump
 
--- **fullscreen**: Fullscreen mode (ignored option pxsize)
--- **hz** <*arg*>: Frequency for beeping sound (default value: 330 Hz)
--- **ips** <*arg*>: Instructions Per Second (default value: 250)
--- **ow**: Overwrite option for debug file
--- **pxcolor** <*arg*>: Pixel Color (default value: GREEN)
--- **pxsize** <*arg*>: Pixel Size (default value: 8)
--- **trace**: Trace code execution
+**-fullscreen**: Fullscreen mode (ignored option pxsize)
+
+**-hz** <*arg*>: Frequency for beeping sound (default value: 330 Hz)
+
+**-ips** <*arg*>: Instructions Per Second (default value: 250)
+
+**-ow**: Overwrite option for debug file
+
+**-pxcolor** <*arg*>: Pixel Color (default value: GREEN)
+
+**-pxsize** <*arg*>: Pixel Size (default value: 8)
+
+**-trace**: Trace code execution
 
 examples of use:
     
