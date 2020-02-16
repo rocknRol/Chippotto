@@ -21,8 +21,8 @@ Chippotto is a command line Java application witch the follow options:
     
 	chippotto [-bgcolor <arg>] [-dasm] [-debugfile <arg>] [-dump] [-fullscreen] [-hz <arg>] [-ips <arg>] [-ow] [-pxcolor <arg>] [-pxsize <arg>] [-trace] <rom_file>
 
--- **bgcolor** <*arg*>: Background Color (default value: BLACK)
--- **dasm**: ROM disassembler
+**-bgcolor** <*arg*>: Background Color (default value: BLACK)
+**-dasm**: ROM disassembler
 -- **debugfile** <*arg*>: Debug file for dump/disassembler/trace option
 -- **dump**: ROM dump
 -- **fullscreen**: Fullscreen mode (ignored option pxsize)
