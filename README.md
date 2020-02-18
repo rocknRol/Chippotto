@@ -110,7 +110,8 @@ Now I bring back to You some notes about Chip-8 system.
 #### CPU
 
 The CPU has 35 opcodes whose length is 2 bytes-
- The cpu register are 16 whose length is 1 byte: V0, V1, V2, V3, V4, V5, V6, V7, V8, V9, VA, VB, VC, VD, VE, VF
+ The cpu register are 16 whose length is 1 byte: V0....VF
+
 VF register is used for:
 
 - in addiction aritmetic operation it is the carry flag
