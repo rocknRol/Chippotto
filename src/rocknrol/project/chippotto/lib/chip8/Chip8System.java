@@ -49,7 +49,7 @@ public class Chip8System {
         loadFonset();
     }
 
-    public void setDebugInfo(byte debugSwitch, String debugFile, boolean debugFileAppend) { //, dumpFile, String dasmFile, String traceFile) {
+    public void setDebugInfo(byte debugSwitch, String debugFile, boolean debugFileAppend) {
         this.debugSwitch = debugSwitch;
         this.debugFile = debugFile;
         this.debugFileAppend = debugFileAppend;

@@ -122,13 +122,13 @@ class Chip8dasm {
                 assemblyLine += "JMP 0" + util.shortToHex(NNN, 3);
                 if(!oddPC)
                     if(NNN%2 != 0 && NNN > PC) {
-                        preDataBlockFlag = true; //
+                        preDataBlockFlag = true;
                         dataBlockEntry = NNN;
                         oddPC = true;
                     }
                 else
                     if(NNN%2 == 0 && NNN > PC) {
-                        preDataBlockFlag = true; //
+                        preDataBlockFlag = true;
                         dataBlockEntry = NNN;
                         oddPC = false;
                     }
@@ -256,7 +256,7 @@ class Chip8dasm {
     private void writeDebugFile(String fileContent) {
         try {
             File file = new File(this.debugFile);
-            FileOutputStream fos = new FileOutputStream(file, true); //this.debugFileAppend);
+            FileOutputStream fos = new FileOutputStream(file, true);
             fos.write(fileContent.getBytes());
             fos.close();
         } catch(IOException ioe) {

@@ -42,7 +42,7 @@ public class ChippottoFrame  extends JFrame {
         sds.dimHeight = this.getSize().height;
 
         sds.chip8system = new Chip8System();
-        sds.chip8system.setDebugInfo(sds.debugSwitch, sds.debugFile, sds.DebugFileAppend); //, sds.dumpFile, sds.dasmFile, sds.traceFile);
+        sds.chip8system.setDebugInfo(sds.debugSwitch, sds.debugFile, sds.DebugFileAppend);
         int len = sds.chip8system.loadRom(sds.rom);
         if(len <= 0)
             System.exit(-1);
